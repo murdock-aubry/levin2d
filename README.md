@@ -28,9 +28,7 @@ univariate piecewise Chebyshev expansions on intervals.
 
 7.  The file levin.f90 contains code for evaluating integrals of the form
 
-         b  
-     \int   f(x) exp( g(x) ) dx
-         a
+    $\int_a^b f(x) \exp(ig(x)) dx
 
 with f(x) and g(x) smooth via an "adaptive Levin method."  Its principal claim 
 to fame is that it is often much more efficient than standard methods when
