@@ -2,16 +2,14 @@ Written by Murdock Aubry:
 
 1.  The file levin2d.f90 contains code for evaluating integrals of the form
 
-         b     d
-     \int  \int f(x, y) exp( i g(x, y) ) dx dy,
-         a     C
+    $\int_a^b \int_c^d f(x, y)\exp(i g(x, y))dxdy$
+    
      using the two dimensional adaptive Levin method.
 
-2.  The file levin2d.f90 contains code for evaluating integrals of the form
+3.  The file levin2d.f90 contains code for evaluating integrals of the form
 
-         b     d
-     \int  \int f(x, y) exp( i g(x, y) ) dx day
-         a     C
+    $\int_a^b \int_c^d f(x, y)\exp(i g(x, y))dxdy$
+    
      using the two dimensional adaptive Gauss-Legendre scheme.
 
 Written by James Bremer at the University of Toronto:
